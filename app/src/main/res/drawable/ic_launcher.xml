@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Prosta ikona: malinowe koło z kawałkiem tortu -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:fillColor="#B0304A"
+        android:pathData="M54,4a50,50 0,1 1,0 100a50,50 0,1 1,0 -100z" />
+    <!-- spód tortu -->
+    <path android:fillColor="#FFF3E6"
+        android:pathData="M28,58 L80,58 L80,78 Q80,82 76,82 L32,82 Q28,82 28,78 Z" />
+    <!-- krem -->
+    <path android:fillColor="#FFD9DD"
+        android:pathData="M28,58 Q34,64 41,58 Q47,64 54,58 Q61,64 67,58 Q74,64 80,58 L80,52 L28,52 Z" />
+    <!-- górna warstwa -->
+    <path android:fillColor="#FFF3E6"
+        android:pathData="M32,40 L76,40 L76,52 L32,52 Z" />
+    <!-- świeczka i płomień -->
+    <path android:fillColor="#FFB950"
+        android:pathData="M52,26 L56,26 L56,40 L52,40 Z" />
+    <path android:fillColor="#FFDD8A"
+        android:pathData="M54,14 Q59,20 54,24 Q49,20 54,14 Z" />
+</vector>
